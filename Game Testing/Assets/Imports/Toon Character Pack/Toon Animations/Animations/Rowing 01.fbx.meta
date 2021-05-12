@@ -1,98 +1,262 @@
 fileFormatVersion: 2
 guid: 2f3a95eab1d169f49844b8bcbd3f5758
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: BVH:Head
-    100004: BVH:Head_End
-    100006: BVH:Hips
-    100008: BVH:LeftArm
-    100010: BVH:LeftFingerBase
-    100012: BVH:LeftFoot
-    100014: BVH:LeftForeArm
-    100016: BVH:LeftHand
-    100018: BVH:LeftHandIndex1
-    100020: BVH:LeftHandIndex1_End
-    100022: BVH:LeftLeg
-    100024: BVH:LeftShoulder
-    100026: BVH:LeftToeBase
-    100028: BVH:LeftToeBase_End
-    100030: BVH:LeftUpLeg
-    100032: BVH:LHipJoint
-    100034: BVH:LowerBack
-    100036: BVH:LThumb
-    100038: BVH:LThumb_End
-    100040: BVH:Neck
-    100042: BVH:Neck1
-    100044: BVH:RHipJoint
-    100046: BVH:RightArm
-    100048: BVH:RightFingerBase
-    100050: BVH:RightFoot
-    100052: BVH:RightForeArm
-    100054: BVH:RightHand
-    100056: BVH:RightHandIndex1
-    100058: BVH:RightHandIndex1_End
-    100060: BVH:RightLeg
-    100062: BVH:RightShoulder
-    100064: BVH:RightToeBase
-    100066: BVH:RightToeBase_End
-    100068: BVH:RightUpLeg
-    100070: BVH:RThumb
-    100072: BVH:RThumb_End
-    100074: BVH:Spine
-    100076: BVH:Spine1
-    400000: //RootNode
-    400002: BVH:Head
-    400004: BVH:Head_End
-    400006: BVH:Hips
-    400008: BVH:LeftArm
-    400010: BVH:LeftFingerBase
-    400012: BVH:LeftFoot
-    400014: BVH:LeftForeArm
-    400016: BVH:LeftHand
-    400018: BVH:LeftHandIndex1
-    400020: BVH:LeftHandIndex1_End
-    400022: BVH:LeftLeg
-    400024: BVH:LeftShoulder
-    400026: BVH:LeftToeBase
-    400028: BVH:LeftToeBase_End
-    400030: BVH:LeftUpLeg
-    400032: BVH:LHipJoint
-    400034: BVH:LowerBack
-    400036: BVH:LThumb
-    400038: BVH:LThumb_End
-    400040: BVH:Neck
-    400042: BVH:Neck1
-    400044: BVH:RHipJoint
-    400046: BVH:RightArm
-    400048: BVH:RightFingerBase
-    400050: BVH:RightFoot
-    400052: BVH:RightForeArm
-    400054: BVH:RightHand
-    400056: BVH:RightHandIndex1
-    400058: BVH:RightHandIndex1_End
-    400060: BVH:RightLeg
-    400062: BVH:RightShoulder
-    400064: BVH:RightToeBase
-    400066: BVH:RightToeBase_End
-    400068: BVH:RightUpLeg
-    400070: BVH:RThumb
-    400072: BVH:RThumb_End
-    400074: BVH:Spine
-    400076: BVH:Spine1
-    7400000: Rowing 01 (79_95)
-    9500000: //RootNode
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: BVH:Head
+  - first:
+      1: 100004
+    second: BVH:Head_End
+  - first:
+      1: 100006
+    second: BVH:Hips
+  - first:
+      1: 100008
+    second: BVH:LeftArm
+  - first:
+      1: 100010
+    second: BVH:LeftFingerBase
+  - first:
+      1: 100012
+    second: BVH:LeftFoot
+  - first:
+      1: 100014
+    second: BVH:LeftForeArm
+  - first:
+      1: 100016
+    second: BVH:LeftHand
+  - first:
+      1: 100018
+    second: BVH:LeftHandIndex1
+  - first:
+      1: 100020
+    second: BVH:LeftHandIndex1_End
+  - first:
+      1: 100022
+    second: BVH:LeftLeg
+  - first:
+      1: 100024
+    second: BVH:LeftShoulder
+  - first:
+      1: 100026
+    second: BVH:LeftToeBase
+  - first:
+      1: 100028
+    second: BVH:LeftToeBase_End
+  - first:
+      1: 100030
+    second: BVH:LeftUpLeg
+  - first:
+      1: 100032
+    second: BVH:LHipJoint
+  - first:
+      1: 100034
+    second: BVH:LowerBack
+  - first:
+      1: 100036
+    second: BVH:LThumb
+  - first:
+      1: 100038
+    second: BVH:LThumb_End
+  - first:
+      1: 100040
+    second: BVH:Neck
+  - first:
+      1: 100042
+    second: BVH:Neck1
+  - first:
+      1: 100044
+    second: BVH:RHipJoint
+  - first:
+      1: 100046
+    second: BVH:RightArm
+  - first:
+      1: 100048
+    second: BVH:RightFingerBase
+  - first:
+      1: 100050
+    second: BVH:RightFoot
+  - first:
+      1: 100052
+    second: BVH:RightForeArm
+  - first:
+      1: 100054
+    second: BVH:RightHand
+  - first:
+      1: 100056
+    second: BVH:RightHandIndex1
+  - first:
+      1: 100058
+    second: BVH:RightHandIndex1_End
+  - first:
+      1: 100060
+    second: BVH:RightLeg
+  - first:
+      1: 100062
+    second: BVH:RightShoulder
+  - first:
+      1: 100064
+    second: BVH:RightToeBase
+  - first:
+      1: 100066
+    second: BVH:RightToeBase_End
+  - first:
+      1: 100068
+    second: BVH:RightUpLeg
+  - first:
+      1: 100070
+    second: BVH:RThumb
+  - first:
+      1: 100072
+    second: BVH:RThumb_End
+  - first:
+      1: 100074
+    second: BVH:Spine
+  - first:
+      1: 100076
+    second: BVH:Spine1
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: BVH:Head
+  - first:
+      4: 400004
+    second: BVH:Head_End
+  - first:
+      4: 400006
+    second: BVH:Hips
+  - first:
+      4: 400008
+    second: BVH:LeftArm
+  - first:
+      4: 400010
+    second: BVH:LeftFingerBase
+  - first:
+      4: 400012
+    second: BVH:LeftFoot
+  - first:
+      4: 400014
+    second: BVH:LeftForeArm
+  - first:
+      4: 400016
+    second: BVH:LeftHand
+  - first:
+      4: 400018
+    second: BVH:LeftHandIndex1
+  - first:
+      4: 400020
+    second: BVH:LeftHandIndex1_End
+  - first:
+      4: 400022
+    second: BVH:LeftLeg
+  - first:
+      4: 400024
+    second: BVH:LeftShoulder
+  - first:
+      4: 400026
+    second: BVH:LeftToeBase
+  - first:
+      4: 400028
+    second: BVH:LeftToeBase_End
+  - first:
+      4: 400030
+    second: BVH:LeftUpLeg
+  - first:
+      4: 400032
+    second: BVH:LHipJoint
+  - first:
+      4: 400034
+    second: BVH:LowerBack
+  - first:
+      4: 400036
+    second: BVH:LThumb
+  - first:
+      4: 400038
+    second: BVH:LThumb_End
+  - first:
+      4: 400040
+    second: BVH:Neck
+  - first:
+      4: 400042
+    second: BVH:Neck1
+  - first:
+      4: 400044
+    second: BVH:RHipJoint
+  - first:
+      4: 400046
+    second: BVH:RightArm
+  - first:
+      4: 400048
+    second: BVH:RightFingerBase
+  - first:
+      4: 400050
+    second: BVH:RightFoot
+  - first:
+      4: 400052
+    second: BVH:RightForeArm
+  - first:
+      4: 400054
+    second: BVH:RightHand
+  - first:
+      4: 400056
+    second: BVH:RightHandIndex1
+  - first:
+      4: 400058
+    second: BVH:RightHandIndex1_End
+  - first:
+      4: 400060
+    second: BVH:RightLeg
+  - first:
+      4: 400062
+    second: BVH:RightShoulder
+  - first:
+      4: 400064
+    second: BVH:RightToeBase
+  - first:
+      4: 400066
+    second: BVH:RightToeBase_End
+  - first:
+      4: 400068
+    second: BVH:RightUpLeg
+  - first:
+      4: 400070
+    second: BVH:RThumb
+  - first:
+      4: 400072
+    second: BVH:RThumb_End
+  - first:
+      4: 400074
+    second: BVH:Spine
+  - first:
+      4: 400076
+    second: BVH:Spine1
+  - first:
+      74: 7400000
+    second: Rowing 01
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: "\nClip '79_95' has import animation warnings that might
       lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
@@ -101,20 +265,31 @@ ModelImporter:
       transforms and has rotation animation that will be discarded.\n\t'BVH:LeftFingerBase'
       is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'BVH:RightFingerBase'
       is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
-    animationRetargetingWarnings: 
+    animationRetargetingWarnings: "\nRetargeting quality report for clip '79_95':\n\tLeftLowerLeg
+      average position error 0.0 mm and maximum position error 3.1 mm at time 0:
+      0 (0.0%) Frame 0\n\tRightLowerLeg average position error 0.0 mm and maximum
+      position error 3.1 mm at time 0: 0 (0.0%) Frame 0\n\tLeftLowerArm average position
+      error 0.1 mm and maximum position error 7.3 mm at time 0: 0 (0.0%) Frame 0\n\tRightLowerArm
+      average position error 0.1 mm and maximum position error 7.0 mm at time 0:
+      0 (0.0%) Frame 0\n\tHead average position error 19.6 mm and maximum position
+      error 44.1 mm at time 4: 3 (52.4%) Frame 99\n"
     animationDoRetargetingWarnings: 1
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Rowing 01 (79_95)
+      name: Rowing 01
       takeName: 79_95
+      internalID: 0
       firstFrame: 40
-      lastFrame: 140
+      lastFrame: 64
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -133,7 +308,14 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.28708026
+        functionName: Shoot
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
@@ -144,26 +326,45 @@ ModelImporter:
     globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: BVH:Hips
       humanName: Hips
@@ -592,14 +793,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 1
   userData: 
   assetBundleName: 

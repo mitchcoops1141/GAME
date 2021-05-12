@@ -10,6 +10,7 @@ TagManager:
   - NextRoomStart
   - Path
   - Room
+  - Projectile
   layers:
   - Default
   - TransparentFX
@@ -17,11 +18,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Room
+  - Path
+  - Player
+  - RoomBorder
+  - Projectile
   - 
   - 
   - 

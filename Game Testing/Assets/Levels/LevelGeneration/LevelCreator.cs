@@ -31,11 +31,9 @@ public class LevelCreator : MonoBehaviour
 
         lm.grid.UpdatePaths();  
         
-
-        
-
         //find all rooms and add to the levelmanager array
         lm.roomsInLevel = GameObject.FindGameObjectsWithTag("Room");
+        lm.roomsInLevel[0].GetComponent<Room>().roomCompleted = true;
 
     }
 }

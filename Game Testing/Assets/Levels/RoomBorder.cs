@@ -4,7 +4,7 @@ using UnityEngine;
 using Sirenix.OdinInspector;
 
 public class RoomBorder : MonoBehaviour
-{
+{/*
     [ValueDropdown("Direction")]
     public string direction;
     private static string[] Direction = new string[] { "up", "right", "down", "left" };
@@ -30,4 +30,5 @@ public class RoomBorder : MonoBehaviour
             { "left", new Vector2Int(-1, 1)},
         };
     }
+    */
 }

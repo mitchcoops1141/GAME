@@ -1,0 +1,66 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Sirenix.OdinInspector;
+
+public class RoomPath : MonoBehaviour
+{
+    public Transform[] pathModules;
+
+
+    public static float intervalSpeed = 0.06f;
+
+
+    [ValueDropdown("Direction")]
+    public string direction;
+    private static string[] Direction = new string[] { "up", "right", "down", "left" };
+
+    public Dictionary<string, Vector2Int> nextPos;
+    public Dictionary<string, Vector2Int> playerMovement;
+
+    public void Start()
+    {
+        nextPos = new Dictionary<string, Vector2Int>
+        {
+            { "up", Vector2Int.up},
+            { "right", Vector2Int.right},
+            { "down", Vector2Int.down},
+            { "left", Vector2Int.left},
+        };
+
+        playerMovement = new Dictionary<string, Vector2Int>
+        {
+            { "up", new Vector2Int(-1, -1)},
+            { "right", new Vector2Int(1, -1)},
+            { "down", new Vector2Int(1, 1)},
+            { "left", new Vector2Int(-1, 1)},
+        };
+    }
+    public void Deactivate()
+    {
+        StartCoroutine("DeactivateIE");
+    }
+
+    public void Activate()
+    {
+        StartCoroutine("ActivateIE");
+    }
+
+    IEnumerator DeactivateIE()
+    {
+        foreach(Transform pm in pathModules)
+        {
+            pm.gameObject.SetActive(false);
+            yield return new WaitForSeconds(intervalSpeed);
+        }
+    }
+
+    IEnumerator ActivateIE()
+    {
+        foreach (Transform pm in pathModules)
+        {
+            pm.gameObject.SetActive(true);
+            yield return new WaitForSeconds(intervalSpeed);
+        }
+    }
+}
